@@ -174,6 +174,8 @@ The same skin has been ported to two other ecosystems using a shared Tcl file:
 
 Those projects define the skin in Tcl so it can be sourced by any Tk host. The Python project here uses native `ttk.Style` calls and Python classes instead (predates the Tcl port), but the palettes and visual design are identical.
 
+- [rust_tk_gtk3_gtk4](https://github.com/KellerKev/rust_tk_gtk3_gtk4) — Rust bindings for Tcl/Tk, hand-written FFI + `Result`-based API + closures as Tcl commands, same shared `resources/gtk_skin.tcl`.
+
 ## License
 
 MIT.
