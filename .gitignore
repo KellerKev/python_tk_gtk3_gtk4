@@ -1,0 +1,16 @@
+# pixi environment (lockfile is committed for reproducibility)
+.pixi/*
+!.pixi/config.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
